@@ -11,6 +11,9 @@ public class HelloController {
 	@Value("${helloworld.message:HelloWorldNotSet}")
 	private String helloWorld;
 
+	@Value("${mypassword}")
+	private String password;
+
 	private Faker faker = new Faker();
 
 	@GetMapping("/")
