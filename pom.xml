@@ -27,6 +27,8 @@
 		</dependency>
 
 		<!-- tag::actuator[] -->
+
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
@@ -39,7 +41,6 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-client</artifactId>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.azure.spring/spring-cloud-azure-starter-keyvault-secrets -->
 		<dependency>
 			<groupId>com.azure.spring</groupId>
 			<artifactId>spring-cloud-azure-starter-keyvault-secrets</artifactId>
